@@ -1,0 +1,39 @@
+.c-footer-menu {
+    display: flex;
+    position: absolute;
+    list-style: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin:0;
+    a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+        font-family: 'M PLUS 1p', sans-serif;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    li {
+    color: #fff;
+    }
+    span {
+        display: inline-block;
+        margin-top: 0px;
+        font-size: 20px;
+    }
+}
+
+
+@include sm{
+        .c-footer-menu { 
+            a {          
+                font-size: 3.2vw;
+        }
+            span {
+                display: inline-block;
+                margin-top: -10px;
+                font-size: 20px;
+        }
+    }
+}

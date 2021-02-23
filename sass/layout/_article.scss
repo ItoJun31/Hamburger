@@ -1,0 +1,19 @@
+.l-article {
+    width: 80%;
+}
+
+
+@include md {
+    .l-article {  /*隠れてるメニュー部分を補っている*/
+        width: 100%;
+        position: relative;
+        }
+}
+
+
+@include sm{
+    .l-article {  /*隠れてるメニュー部分を補っている*/
+        width: 100%;
+        position: relative;
+        }
+}

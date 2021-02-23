@@ -1,0 +1,37 @@
+/*----------front----------*/
+.l-header {
+    background-color: #FFF7EF;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/*----------archive----------*/
+.l-header--Cheeseburger {
+    background-color: #FFF7EF;
+    img {
+        width: 100%;
+        height: auto;
+        background-color: #000000;
+    }
+}
+
+
+@include md {
+.l-header img {
+    width: 100%;
+    height: auto;
+    }
+}
+
+
+@include sm {
+    .l-header--Cheeseburger {
+        img {
+            width: 100%;
+            height: 150px;
+        }
+    }
+}

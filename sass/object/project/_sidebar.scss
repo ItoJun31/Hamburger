@@ -1,0 +1,52 @@
+
+.p-batsu {
+    display: none;
+}
+
+.p-sidebar {
+    a {
+    text-decoration: none;
+    color: #707070;
+    }
+    li {
+    list-style: none
+    }
+}
+
+
+@include md {
+    .p-batsu {
+        display: block;
+        font-size: 200%;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-left: 230px;
+    }
+    .p-sidebar_mobile {
+        > a{
+            display: block;
+            text-align: right;
+            margin-top: -23px;
+            padding-top: 18px;
+            padding-right: 26px;    
+            font-family: Roboto;
+            font-weight: bold;
+            font-size: 34px;
+            color: #707070;
+            text-decoration: none;
+        }    
+    }
+    .p-sidebar {
+        height: 1826px; 
+    }  
+}
+
+
+@include sm{
+    .p-sidebar_mobile {
+        >a{
+            padding-right: 16px;    
+            font-size: 20px;
+        }    
+    }
+}
